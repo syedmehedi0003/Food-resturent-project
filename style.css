@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* google fonts */
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-cont{
+    text-align: center;
+}
+.btn{
+    padding: 14px 21px 14px 21px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 1);
+    border: none;
+    cursor: pointer;
+}
+
+#hero{
+    padding: 0;
+    /* background-color: bisque;
+    background-image: url(assets/hero-bg.png); */
+   background: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .hero-content{
+    width: 685px;
+}
+#hero .hero-content .subtitle{
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.description{
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+
+#card-box .info{
+    /* margin-top: 110px; */
+}
+
+#card-box .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .sub-title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#card-box .card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+     font-family: Work Sans;
+}
+#card-box .card{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#card-box .card .img-box{
+    width: 280px;
+}
+#card-box .card .img-box img{
+    width: 100%;
+}
+
+#card-box .card .shop{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.about-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-img{
+    max-width: 644px;
+    max-height: 450px;
+}
+
+.food-img img{
+    width: 100%;
+}
+.about-txt{
+    /* justify-content: center; */
+    /* align-items: ; */
+    text-align: center;
+    max-width: 644px;
+    max-height: 450px;
+    gap: 10px;
+}
+
+.about-txt h2{
+color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0%;
+}
+
+
+.about-txt p{
+color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 18px;
+}
+
+.about-txt .follow-txt{
+    opacity: 0.7;
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 8px;
+    margin: 0 auto;
+}
+.about-txt #follow{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+ 
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
