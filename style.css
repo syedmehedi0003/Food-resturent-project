@@ -140,16 +140,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .food-img{
-    max-width: 644px;
-    max-height: 450px;
+    
 }
 
 .food-img img{
     width: 100%;
+    max-width: 644px;
+    max-height: 450px;
 }
 .about-txt{
     /* justify-content: center; */
@@ -204,4 +205,70 @@ margin-top: 18px;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(16, 16, 16, 0.2);
     border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.s-icon{
+    margin-top: 22px;
+    justify-content: center;
+    gap: 40px;
+}
+.s-icon a{
+    margin: 0 auto;
+    margin-right: 20px;
+}
+.fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: rgb(81, 15, 222);
+    color: white;
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.fa-twitter{
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.fa-instagram{
+    font-size: 28px;
+    color: white;
+    background-color: rgb(121, 5, 5);
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.fa-pinterest{
+  font-size: 28px;
+    color: white;
+    background-color: rgb(235, 44, 44);
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;  
 }
